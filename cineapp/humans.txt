@@ -1,0 +1,20 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Developer: Rolando Sequeira Victor
+    Contact: roloseqvic@gmail.com
+    Twitter: cuentaTwitter
+    Location: Puntarenas, CR
+
+
+
+# THANKS
+
+    Name: Juan Peres Sosa
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css

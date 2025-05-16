@@ -1,0 +1,17 @@
+@import url(general.css);
+
+.btn-negro {
+  background-color: var(--primario) !important;
+  color: var(--blanco) !important;
+}
+
+.btn-negro:hover {
+  background-color: var(--blanco) !important;
+  color: var(--primario) !important;
+  border: var(--primario) solid 2px !important;
+}
+
+.card {
+  border: var(--primario) solid 2px !important;
+  padding: 2em;
+}

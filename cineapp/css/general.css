@@ -1,0 +1,69 @@
+@import url("fuentes/stylesheet.css");
+:root {
+  /*colores*/
+    --primario: #bf213e;
+    --secundario: #f2e8b6;
+    --enfasis:#f2d377;
+    --negro: #000000;
+    --blanco: #ffffff;
+  /*fuente*/
+  --fuente:'roman_sdregular';
+}
+
+/*aplicar fuente y tamaño a todo el documento*/
+
+*{
+  line-height: 1.5em !important; /*interlienado*/
+  letter-spacing: 0.12em !important;
+  word-spacing: 0.16em !important;
+}
+
+.active,.nav-link:hover{
+  color:var(--primario) !important;
+  text-decoration: underline !important;
+  font-weight: bold !important;
+}
+
+.bg-secundario{
+  background-color: var(--secundario);
+}
+
+body{
+    font-family: var(--fuente) !important;
+    font-size: 14px;
+}
+footer,footer a {
+  color:var(--blanco)
+}
+footer{
+  background-color: var(--primario);
+  padding: 2em ;
+}
+footer a{
+  text-decoration: none;
+  
+}
+
+footer a:hover{
+  text-decoration: underline;
+}
+
+main{
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+p{
+  margin-bottom: 2em !important;
+}
+
+
+
+/*
+  fuente
+  fondos
+  bordes
+  tamaños
+  margen y relleno
+*/
